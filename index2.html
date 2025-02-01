@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Example Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
+   
+    
+</head>
+<body>
+
+    <h1>HTML Elements Demonstration</h1>
+
+    <p>This is an example of how to use different HTML elements.</p>
+
+    <h2>Images</h2>
+    <p>Below is an example of an image:</p>
+    <img src="https://akm-img-a-in.tosshub.com/sites/dailyo/fb_feed_images/story_image/201801/srk1820_010818025119.jpg" alt="Placeholder Image" width="300">
+
+    <h2>Tables:&gt;</h2>
+    <p>Here’s an example of a table:</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>25</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>30</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Mike Johnson</td>
+            <td>35</td>
+            <td>Chicago</td>
+        </tr>
+    </table>
+
+    <h2>Lists</h2>
+    <p>Sure! Here’s a random paragraph for you:
+
+        "On a quiet morning, as the sun began to rise over the horizon, the world seemed to awaken slowly, stretching out from a night of peaceful slumber. The birds chirped softly in the trees, and the breeze whispered through the leaves, carrying with it the faint scent of fresh earth. People began their routines, some heading to work, others enjoying a peaceful moment with a cup of coffee. It was one of those rare mornings where everything felt just right — calm, balanced, and full of possibility."
+    </p>
+
+    <h3>Unordered List:</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+
+    <h3>Ordered List:&cent;</h3>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <h2>Text Formatting</h2>
+    <p>This is an <i>italic</i> word, and this is a <b>bold</b> word.</p>
+    <p><u>This is underlined text.</u></p>
+
+    <h2>Links:&pound;</h2>
+    <p>Here’s a link to <a href="https://www.example.com" target="_blank">Example Website</a>.</p>
+
+
+    <h3> a description list</h3>
+    <dl>
+        <dt> coffee</dt>
+        <dd> black hot cofee</dd>
+        <dt> milk</dt>
+        <dd> white cold drink </dd>
+
+    </dl>
+    <form action="srver_url" method="get"
+    <h1> name</h1>
+    <input type="text" name="username"
+    <br>
+
+    </form>
+
+    <form action="/submit" method="POST">
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="nationality">Nationality:</label>
+        <select id="nationality" name="nationality" required>
+            <option value="" disabled selected>Select your nationality</option>
+            <option value="American">American</option>
+            <option value="Canadian">Canadian</option>
+            <option value="British">British</option>
+            <option value="Australian">Australian</option>
+            <option value="Indian">Indian</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+
+    
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+    <formm action="server_url" method="get">
+        <table>
+            <tr> 
+                <td>
+                    <label for="username">name</label>
+                </td>
+                <td>
+                    <input type="text" name="username" placeholder="enter your name">
+                </td>
+            </tr>
+        </table>
+
+    </formm>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>15 Different Types of Inputs</title>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <label for="textInput">Text Input:</label>
+            <input type="text" id="textInput" name="textInput"><br><br>
+    
+            <label for="passwordInput">Password Input:</label>
+            <input type="password" id="passwordInput" name="passwordInput"><br><br>
+    
+            <label for="emailInput">Email Input:</label>
+            <input type="email" id="emailInput" name="emailInput"><br><br>
+    
+            <label for="urlInput">URL Input:</label>
+            <input type="url" id="urlInput" name="urlInput"><br><br>
+    
+            <label for="numberInput">Number Input:</label>
+            <input type="number" id="numberInput" name="numberInput" min="1" max="100"><br><br>
+    
+            <label for="rangeInput">Range Input:</label>
+            <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" value="50"><br><br>
+    
+            <label for="dateInput">Date Input:</label>
+            <input type="date" id="dateInput" name="dateInput"><br><br>
+    
+            <label for="timeInput">Time Input:</label>
+            <input type="time" id="timeInput" name="timeInput"><br><br>
+    
+            <label for="datetimeInput">Datetime Input:</label>
+            <input type="datetime-local" id="datetimeInput" name="datetimeInput"><br><br>
+    
+            <label for="monthInput">Month Input:</label>
+            <input type="month" id="monthInput" name="monthInput"><br><br>
+    
+            <label for="telInput">Telephone Input:</label>
+            <input type="tel" id="telInput" name="telInput"><br><br>
+    
+            <label for="searchInput">Search Input:</label>
+            <input type="search" id="searchInput" name="searchInput"><br><br>
+    
+            <label for="checkboxInput">Checkbox Input:</label>
+            <input type="checkbox" id="checkboxInput" name="checkboxInput"><br><br>
+    
+            <label for="radioInput">Radio Input:</label>
+            <input type="radio" id="radioInput" name="radioInput" value="option1"> Option 1
+            <input type="radio" id="radioInput" name="radioInput" value="option2"> Option 2<br><br>
+    
+            <label for="fileInput">File Input:</label>
+            <input type="file" id="fileInput" name="fileInput"><br><br> 
+    
+            <button type="submit">Submit</button>
+
+            <label for="fileinput">file input:</label>
+            <input type="file" id="fileinput" name="fileinput"><br><br>
+        </form>
+    </body>
+    </html>
+
+    <style>
+        p{
+            background-color: aqua;
+            color: crimson;
+        }
+        para1{
+            background-color: deeppink;
+            color: gold;
+
+        }
+        {
+            parastyle{
+                background-color: bisque;
+                color: lawngreen;
+            }        
+        }
+        
+    </style>
+    <p> India is a vast and diverse country located in South Asia, known for its rich cultural heritage, history, and traditions. With a population exceeding 1.4 billion, it is the second-most populous country in the world. India's cultural diversity is reflected in its more than 2,000 distinct languages, various religions, and regional traditions. The country has a long history that dates back to ancient civilizations like the Indus Valley, and it continues to play a significant role on the global stage today.
+
+        The Indian subcontinent is home to a range of geographical features, from the towering Himalayan mountain range in the north to the tropical beaches of the south. India is also known for its vast deserts, fertile plains, and dense forests. The Ganges River, one of the most sacred rivers in Hinduism, is a symbol of the spiritual and historical importance of India. Agriculture, technology, and services play crucial roles in India's economy, which has grown rapidly in recent decades, transforming the country into one of the largest economies in the world.
+        
+        India’s vibrant culture is showcased through its music, dance, festivals, and cuisine. The country is known for Bollywood, its thriving film industry that produces more films annually than any other country. Festivals like Diwali, Holi, and Eid are celebrated with grandeur, and the diversity of the Indian food culture offers a wide range of flavors, from spicy curries to sweet desserts. Despite its rapid modernization, India retains deep-rooted connections to its past, balancing tradition with innovation in a unique and fascinating way.
+        
+    </p>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Paragraphs</title>
+</head>
+<body>
+    <p style="background-color: orange; padding: 90px;">India is a vast and diverse country located in South Asia, known for its rich cultural heritage, history, and traditions. With a population exceeding 1.4 billion, it is the second-most populous country in the world. India's cultural diversity is reflected in its more than 2,000 distinct languages, various religions, and regional traditions. The country has a long history that dates back to ancient civilizations like the Indus Valley, and it continues to play a significant role on the global stage today.</p>
+    
+    <p style="background-color: white; color: blue; padding: 90px;">The Indian subcontinent is home to a range of geographical features, from the towering Himalayan mountain range in the north to the tropical beaches of the south. India is also known for its vast deserts, fertile plains, and dense forests. The Ganges River, one of the most sacred rivers in Hinduism, is a symbol of the spiritual and historical importance of India. Agriculture, technology, and services play crucial roles in India's economy, which has grown rapidly in recent decades, transforming the country into one of the largest economies in the world.</p>
+    
+    <p style="background-color: green; padding: 90px;">India’s vibrant culture is showcased through its music, dance, festivals, and cuisine. The country is known for Bollywood, its thriving film industry that produces more films annually than any other country. Festivals like Diwali, Holi, and Eid are celebrated with grandeur, and the diversity of the Indian food culture offers a wide range of flavors, from spicy curries to sweet desserts. Despite its rapid modernization, India retains deep-rooted connections to its past, balancing tradition with innovation in a unique and fascinating way.</p>
+
+    
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Background</title>
+        <style>
+            body {
+                /* Setting the background image */
+                background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFRUXGRcaFxcYGBcWGBgXGBgXFxUXFhgYHSggGBolGxcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGC0dHx0rLS0rLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tKzctLS0tMCsrLS0rLSsrK//AABEIAKgBKwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAQIEBQYABwj/xABGEAABAwECDAMDCgUDAwUAAAABAAIRAyExBBJBUWFxgZGhscHwBSLRBhMyI0JSYnKCkrLh8QckNKLCM2NzFMPSFUNTo7P/xAAaAQACAwEBAAAAAAAAAAAAAAAAAgEDBAUG/8QAJhEAAgICAwABBAIDAAAAAAAAAAECEQMxEiFBBBMiMkJRcQUjM//aAAwDAQACEQMRAD8A8YxUsJYShKWiBEp5UgCc1KxkFlcFwStSjinqi/OOtBd3xRnfEdY5KGTHYYGzYui/am07nJ8X7VWXkasLk0MTqpuStTlXogSSnykAQSNVfhJtVlUcIVU8y6dKsgU5S0wbBixsfTgiCLrcWReLQDqRa0MqF0g4tgMD43yZINnw26LAk8Ope88oBxosGcXi3Qr+h7JVavmNls8p4BEsijsiGKU9FXUwem9zWCWkjzPIxnvdlgTYNoyk4oCjYbgNJoAFjrT53OcSPmy2m3y2RkOtaWr7H4RZi5g2ZzW5c5ngq7xH2awimMbzTbOKTIiSSSNKVZYv0Z4Mi8KCv4fZjNMi26CLL8VzTbGUGCL4iYhg4hy95lc4NhL3EtMYxgY+Un/23EiwkGycoJBVbhxaSYuiRoOVuq8bArSjRbYM6W3IwnMonhzvKphdpCyy2dGDtIcJzJwCGH6QnCoM/JKPYQJ0d2dEwVNBSh5zHiga0ELU8NQ2430eXqlxXfV3oCw0aeK5rghQcrmjj1XNAB8z9wg8ZQHIktcNG5PDx2AojKjB8Rc7UQOic+qw3B449VFA5E8VBn73JoqjT3sVc54+tvI5pWvGYHWQeqmkRybLNuENGXelOEtGUKEHuyMb+EnoUUe8+gPwu/8AFL0N2YqEuKm4yXGWrs5vQsJWJJTgEEhGhcEsLglLBCEd3xHZyQXd8FId8WwckPREdj2ixycBYdqQ3FPAv2qmzQkQ6ohIHKwwDAffOFOYLnAAxMeV5u2KJVoOZAcIkSDAgjOCrVopdpg5SgpRrHD1Syc6AGVbriqn523uVbVATl73KvwelNVrTlcJ3qzGynL4eg+xuAu+J4tdyAuHeRegYLTFix1DxVlIAEEkxAAmLFpfCcPZUjFcJ1x3+q5+a5O2dTCoxjSLo0h2VAw+gCI1ypbmn6QjZ3lVN4hhrWE4zoyX92qpL+C2/wCTznxnAW0qrosHkdqjHLo0WcVlK77SSIxi4jb+q2ftEDUx6otbOKYNkCCQM4BF+UkrEVnS5dXG/tONmVT6LXAHeWIGubeakyM3exMwFoAt5owqCTE8VTJ9mqKpIVurgUQY2ncOqaIzcJT2kZhuSWWJCzpO9vqnT9b+70akD8wSYztCCekFOaeDj6JAzsNPVyQPdmXFx08VA1ofiD639o6FLjDMfx+jUF0pAdPL1UhaJAqaBtNQ9QnB4+iwfdnmSo9mjZbySx3BPRRQckSfenI4DUxo6Jf+oP037LOSjWm4Hd6pfdP+ie9qniHJDn4afpVfxFEpUarxjNbWcDcRjkZr1a+yfs8MJqu96SGMGMQPnWgQXTYLV6Qyk1gDWgNaLAAIAAuATOkVc2fO4aMyXFSQVyvMdDxq4lGfSxQNKXBqNmN3ZYjYULB3lUDJEcFcAkTwLkpYLiSY1DeQE8m0H6o5Jp72Jzvm/ZCPBVsOPhRKeXah/N2p9PLtVLNKLL2Z/qaOmpTG8kdUzx8/I04yYu/Fk8SU72dMYTQ/5qP/AOrR1T/HmfJN0Pj+yU8SuaM81xRBKVlMW7eCkCmO+HVS2RGLIxKufDfC21cCdWlofQrtsi0tf7sX5gTOwqudTt77zK48Bj3WEtN2KxwH1pMHZYlcq0NwvZpaeA+VmKYNkkRJukSbsylVPCGjzuc5zrw4wCB5jGMLTeBb9FTPC4Iaj+OOMNZHxOEnM0esrNzd0bFjVJgHlzqVJhMTMm2bbVTYX4G8NOLiPa4W45qOdMWhpdIbb84blofFGlnu4F0WaNCsazAW7J3pYz4jSgpbMDh2BNp4O6GkAB3lJnTesP8A+kltOnVvFQuifqm4Zf3C9J9pqBLPdg21CGjaQFlfaFoZUp4MDLaDI+8/zO12Yi1Y5ujHlxrl/RVspm6B3sRhTdoT2ut2IxbeobHUVQEUyRfzT/8Apzn4ItId7Mik2SdahyGUUyH/ANKc5ycZTzgonKbOKmFtujv90rmWd3zHVLzJ4IjDA2xtKUYC3MMnSVMAneeq5oNmScvexHJkuKITaIyASbsmcnhG9SaWDCW2WyLJvk2EaD6pagmyIu2Y10bBwUxguOUEDTN8bxxRbIpESnSAE6DwA6ogwe2AM368gi0m2d5wY4J9C23vL6IsakRfd2DPlT307Dq4hFLJu7y+qI2lFpyyOFnCVNi0aD+HzfNWOjqzvYtQ9tqznsI2BXP2R3uWwbRnMmbM3rPmopcVNT2q0rJuCD5PafXqh4ZcNqPgv+ntPJsIWFjyg60DNdEWFxKcGprkEBDl1O5FL9D7K5o5O5Fc25mo81PhH7B/mpzBftXEeVLTy7VSaPSf4Cf5il/y0Tur0/VTvaKn8lqrOG5oCr/BP9ZhzOYf/upK49rGRRqaMIqfmjomQsjM0cu3oVIa20aQB3vUbBBYe8yk1Gg74P4T1ASy2PHQw59J6AckKqSDYSDdZqRmC7bG2TyKZhBAlC2D0bjwPxRvumOJuv2QpdfxZ9Z0NGK0SCTwHBYXwPDMUtmCwvI25QdC3eG4KwAVcSR5ZDWg35Uk4KLLcM3NU3oR+GV4LjTIiRBJtbAum6/UrWl4q2qxuLeYEGwiblWYFg1OsZawsaImfKeBVd45hDMHf5QZIaYnNY1oGckhJxUnRbN8O07RXe1vjLmVGCnBc12W0TpGrms7UrOqPdUecZ7rXG7MBqgQNiTCabve/KGXRjEaTNk7kbE73esbFfSiqMabm22OpWG3RzCOX2HUh4veyeidFh1FIy5Lo6m7n6SpBOzsINMSdpCM4WbPT0KGRHQdsHn/AHAeq7GIE32DoUOmLhlOTvSpBcRdYIO6AkaLEzqhMHP5uYCR+YHNwk84RXs67oB9EyJdoBHC8cEIJC1afmOjoABzO5SGEY4H0S23Ob2nieCAHGQdBNmmIHHgj06cYpNo492KUKxtP4do9OZS2m6zPtuHAojG+Xed1qLSFhPdn7qLHqyOWmyBfZq7B4IxHltsNh9eqaDZZbaeF6KRLdvA3dFJFI0nsOPJX+1T44y2NFggWLIewzfk6326XOp+i2uD05aE8jI9s+XQnMuSJad3edXFaLDAv9M/a/xamYQPJtPIouA/6bvtD8v6IWFjyfeHIoJeiOLkxyeAmOCAegtE2t1xvsSgeWnqd+YpMG+Jn2m/mErm/AzRjeqnwS/uJAMt2dUtIX7VwFmzqnUhYdZVJqRJ8MdD51fnpnotF7YgCnX0V38azwscMJxZP1Twj0Vn7V+LsqOrtY7GxqhIItB+WqvmRoLVZGLZROaRW0aoAPeROwjCwJjQeEdVVsJTww5RxT/R7K38jqkSzh10ZP25Qohc57g1t7iANJNgG9NdZoVh7OUprsP0Zf8AhEjjCbgoqxPqSm1E1B8CAaaDIxsUEH6wJIJ3BSvCfHXsaG12u8si4lpjLI2qX4K8uwgvNxIaOfqtAfDAHOIF5JjIZWGWRakdWOL2PRna/tfTaTiAjRBt1BCwXw6o9xwnCGw90+7pn5jYIBd9YzsWgwfwKkavvXAOc23Q3KI06UniT7HVMwhutRzX6h9OW5+HlvjeE4uFvnQD+EBTKTg5sjNd3qVN4+6cIqkXY7gNhhBwes5vwytrxWlRzYZ+MnejRNbZr9Citp2HbyJ6KuwLxQGA6wq1afIdR4ByzuLWzbGcZK0xlO46z1RH3aYO+4JlG896EQizvWj0L6CMGXNcjgC/J6ZOSDg7u9Fykt1fS6pJFkdD6jR+uuEx7TJ37u42I2KMt2NHAX7uCGDbo/b1UIaQoEGALyB1PMI7GmTJsvA3wdR6oIM/vo9AjsjTPEXSNylijmt8o+9O4HoUrXeXf1SNFh1HnE7kR157zJRkdTpgGzPzsXYQLZ7suSg3d5018cuIPqpWwdUaf2HZ8lU0vbwLwtxgxhoCxXsUPkHH654OetnTqgABWyMNny0VzLkpTGnJqVonpaeHDyP0OZxx/RNr/DtCXw4+WoM+JwLl1a46x0UDEUXbkNyeLtiY4oB6HYOPM37TeYT2DyjQ48kOmYIOkc0cCz756p3or/YO3p1XY1m0pjHXfZPMlBwirAOj0VKV9GlypWQjaSZiCRbozJQ0Z0Ok7yjGGccijB9ljVtSo5jduxQBmlKWjSEVrYE3FCe+cqkgEbVf+y/h7nucQYhsXT8U/wDiqRjVvP4e0h7qs7/cAGxjSfzKnPKoNmn4kOWVItfAsGMsm6Q7WTeTnv4rR4RhWLjWScgCqywtAjJ0UmnhLID3TZkXKl9zs78YpIJUllODe61222FTeNeIt93FwbadQvVgarqs5JulZX24aKVJrPnVHR91trtk4o2qzFC5JFWeXCDZ5/hFpJm8knWUlLSSEWtaboTGDMusecGvaMkqRgniL6dkyPUEdVwBOUIVSmhpPY0ZOOi+8Pw1j8tuZTw7hG9Yu42WK28I8SeXhjjINgzys88Vdo14/kX0zRYMPXcf3UlhvGvkT1UeldGjvmplNtv4uLXRyWZm6KCaTlMnTYBsu4pkWnLE9AnvdA2kdEyeu+AehSoaQ5oy5z+3elEx74tbaNs3yhnN+ub1T6bbRZHDJHexMISYE6+pSMvPeUeqdFoG3cR3tTWmCT3kSIsOxZgT2ZSPZEiSbOIzJZt4HZ+6R2TQeBtTC9Gt9jW/IWf/ACP4T6rYNpkgGxZD2J/p4/3Hn8vqtnSdYFZLZjPlhyY1PJQwrhGWWA3P1DgV1Q+U7OYTcCNp1HmErrjqSjEZ5sTE5/e9NcLJTUK32ISpJpyHHJjnRlKiuU0Hyu+31U+FbX3A6bQMh0GTYoOGOPwk2zyVyKJgHP8AsqbxDFx4us42ox02JNtKgdEkDPBHEFS8HBJkmzMFDoN+ITbHK3vWpVJwbTvvy61oKQlRxmwCE06RtQ6bMzuKMwHLagB4nMvQf4eBpwWcvvHzrhp5QvPqkwTPZsW6/hgZpVmZntd+JuL/AILP8lf6zZ8F1lNe+kIUGpg1qs/dXJKzSDwC5dnbUvBmD0cUaV5h7ceJe+wsgfDS+TGsfGfxSPuhej+LeIe4oVKpjytsGdxsYNriAvGWuJdJMkySTlm8nSt3xIXcjm/5DJSUEK9jpzqOApL2ttIcguFy3HKHsaErmpWJ1E35UARXHQlpnFqN0EW6f3XMBxyMmXUh1WuvlQ9Ep0zbMbcNnNSqL4M2QRusJUPBHgtac4aeEqVSNw0HdEBc2R2oEioYFtt8/ichtF+q/Z3vTqhECTn5/omRfuIt7ycFC0PLYTJccnSwbWqVRIBiNZ06+7lHaDOzldA2IlAGZgGIk5QB6jghiBhbG3lPRMaL9vMIlkjf/agOPe1Qh2KBJGa0nTJPoF2EOm3Yup5BnJ3CPRdhLReOwf1T+iLRtPY23Bhpe/8A7a12DtOKLVj/AGM/pR9t/JnotYyoYEZgnlsyHy6UMIoTFaIS8EdbsPJPOXV0QsHHmHeQojunRAxHIu7zp3d6bkCNjMi5058YROqFbDRmy/kS69BopYO6LX+9xjfOLUIFmgEBR8ax/wBoc1Lrn5DBdDq4/upnqgYLRxqhbnLeQKJ6Ix7LGnUxaYBzLKYXVmo4xZPKxbHD6Iaw6J4CSsTSnWkwLbJyhmEX2yLilfVBDRCc0k2YqZSecoWgpHtLTnCk0mxcZUKnUE2hTaAm1pQAta4Z5Wn/AIa4diYUaZMCq2B9pkubwx1l6+QaCuwbCHU3tqMMOaQ5p0tMjZISTjyi0WYp8JqR7h4thrKFJ1V0logQ2JLnENaBJAFpFpIi9EpvDw1wBAIBtsMG23SneFV2YRSbUDQ5lRodBEi0TBGcGzYoXifiraLKlWobGyYyuORo0krkcf1rs7fLvlfVGP8A4o+J208Gaf8AcfxFMH+47lhKAt7tRMOwt9aq+rUMueST0A0AQBoCZQInkutihwikcXNk+pNyH1YuiCmvpWyiOJPPp1TCVYVDbM65kC4pC5uldLdKAENO15mJOjJfx5KPVpxlUhz2nP8AvamAsMhAGm8GqzRYct24wrOgOvGVRezmEzTLPongTPMlXlM2gE5+Urn5FUmdjC7imOLjbnnhLvUJ3qI2pakDvVPJc0GzWkLXsJN52DaZ6HdpUim0xYZvOyPKo4sAGk7boG9SKbhJ1a7IIsOxQwHAW7P8EHCHQBZ9LpCkPEYvHcB1KA7Jb3I9ERJlodQbBJzCNsA9U2o8EbAeGSdiexu68jSYIQ65s1T6lN6JpGz9kbMFb9s8Wha2g7yjUsf7Lf0lP7U72/otTRqeUJpPszRVo+ZAU0pQmvVxUScHPmbrCPiXKPSNoOkc1NcLtagcr8m3onBI7qut+iddkc1fDRky7LKqf5ehoq1uIolBovLapP2OIaOqI4/yrNFd/GnSPRR8IBDnfZafy+iJIiBN8cw2aZGgjfZ1WXY3MVceMv8AJOcj1VVSaDoUYlSDI7ZMwdpynIo9EHFvUukIBVe2IvVpWSfD8Gq1JxKZfAJMCYAvKPgwBtCF4Z4jWo43unYuMMUxmMGOA3BSsEBIugqOyQWEnzbAEIJ1c+c6+iZKkg9O/hT4xNKpgzja2Xs0tcRjganGfvrN+33jXvqxosPydMmY+dUucdlw+8s7gWHVKL8ek4tdDgCMzmlp4HeAciA1sKhYUp8zQ87ePgOCdSdGSU0Jab3CwBXmcMHW3d9wnPRcDwSpVcGUmF7jJhokw0STqACG8GMxCgCM95B+FL72ycVPbjGZQHF4EWKQH1BAFkyAgCpB+HvcpNQnEBF+VRpcc3BQBcezj5e+yBA5x1WhpDzE92ws37NEmo4H6H+TVp2DPoG4gnmseb8jqfG/BDqloGTv9UrWzrO7LC6qMmQWbAEobd1uVJoew9IDdaTflN6IBkGbpbz4ILG2katP1T1RWPk57DlzjJv4KGAWt83ZwieaBWty5uJ9Cj1BBG3jHoVHxrTqREmQVomQDGMTbmAs23cUOvTiMsxOk5eaNQsnYOAlCwg2Dby/RTfZDXRsvZkfytPu6R0V9SdYLVRezP8ASUvvfmd0VyH6RvTS2Z0j5wamuCc0ppV5QFabu8qsKhuVcLu86sH3KGOiswtwhw0dVW4+lTMK+N2tWnsxRY/CqLXtDmueAQQCCCCItV0XSMs/uZW4FhDiCzGOLOMBpsE64gKwrHzO1cv2VRgF51dQrXCj5vu9XKZCwIviNSWtbpPD90GnqXV7SBmt3x6I1AZypgqQs9hiIEKqkZlYOqC6VXuN6cUfSYSbCrihdeqzA2D4jcMinF5AJj9EARnnzFcmhPQA1pT5SQkKAHSmmZEGP0SJH2gaCgCfSqubDmOLSBEiyw3hNxpF6ax4LNAyoTAzISoAcGfW73qNhI+spBa3Sorw2e9CkCdRtbHFQ30y0/FYVJwY/NFxQq7W5SZUAWHs82KrsssP5m9FpnaM/MCeSyfs4PlTH0HcwtY50AWXBvfNY835HS+L/wAwlSYzxl3DpxXMNoyZty51gOuOvf6JKZ73+iqNPoajlzGcuaR/kOCNTdlz9hR2H9udu5GDTZbd+6hkoMX2HX+vVBpZTp6SORRB8OmDyhCAnUbOE+qI6JlsNTxiIbF0zrnj+iHUygxYet+4orCQJAsF8X57M9hCFWB+cLYMxv6oWwejZezJ/laX3/zvVpKpfZmp/LU9GPwqVFbUxYJvTS2UR0fPIK5cuWgzIeblOJsSLkoyKvDB53K09lD/ADeD/wDLT4uAXLlb4Z3sq8EDcVsfH58bV5MXV85TcOvadHV6RcnkVx9K+kRMutJUuoLLI2rlycUimoBeCOKJ4Vg1OpVDalTEYTa6yzTBOtKuUPQIfUYGSAZAJg3TaQDokWoeOSL8vouXKSBAiALlyAFTSuXIASUj2+UrlyACYK8fDkPfetDc/EcYFi5cgCS18/NlQ6z4d8MbFy5AEmictyXC4ABiZXLkAH8CqgVhZEgjiD0Wpe2Qe8lvelcuWPP+R0fi9wDm7u6ItTWG/J+pSLlQawuUDT17GxSQbtPcbwVy5AIa93lgdiJnemg5rB30XLlKIbD0n3akzCTInRznvYuXKK7Gvo0nszU/l2fe/PUVmXlcuUz2U49H/9k=');
+                /* Make the image cover the entire screen */
+                background-size: cover;
+                /* Center the image */
+                background-position: center;
+                /* Prevent image from repeating */
+                background-repeat: no-repeat;
+                /* Set the height of the body to fill the entire viewport */
+                height: 100vh;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple webpage with an image background.</p>
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Background Position Example</title>
+          <style>
+            .example {
+              width: 1500px;
+              height: 600px;
+              background-image: url('data:image/jpeg;base64,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');
+              background-position: center center; /* position the background at the center */
+              background-size: cover; /* optional, makes the image cover the entire area */
+            }
+          </style>
+        </head>
+        <body>
+          <div class="example"></div>
+        </body>
+        </html>
+       
+        
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th?id=OSK.VdUsC7SPNmsGhr6wJAjbErzUa--SmaC3SM4UBYo6nWc&w=200&h=200&c=7&rs=1&o=6&pid=SANGAM'); /* Change this to your image path */
+            background-size: cover; /* Ensures the image covers the entire screen */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            height: 100vh; /* Ensures the body takes up the full height of the viewport */
+            margin: 0; /* Removes default margin */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Page!</h1>
+    <p>This page has a background image.</p>
+</body>
+</html>
+
+
+        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Image</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-image: url('https://th.bing.com/th/id/OIP.ZN5N8OIar7NUlB24NeMiBgHaEK?w=276&h=180&c=7&r=0&o=5&pid=1.7');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Fixed Background Image Example</h1>
+    <p>Scroll down to see the effect!</p>
+  </div>
+</body>
+</html>
+  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Border Styles</title>
+  <style>
+    .solid {
+      border: 4px solid black;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .dashed {
+      border: 4px dashed red;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .dotted {
+      border: 4px dotted blue;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .double {
+      border: 6px double green;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .groove {
+      border: 6px groove purple;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .ridge {
+      border: 6px ridge orange;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .inset {
+      border: 6px inset brown;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .outset {
+      border: 6px outset grey;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .none {
+      border: none;
+      padding: 10px;
+      margin: 10px;
+    }
+    
+    .hidden {
+      border: hidden;
+      padding: 10px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="solid">Solid Border</div>
+  <div class="dashed">Dashed Border</div>
+  <div class="dotted">Dotted Border</div>
+  <div class="double">Double Border</div>
+  <div class="groove">Groove Border</div>
+  <div class="ridge">Ridge Border</div>
+  <div class="inset">Inset Border</div>
+  <div class="outset">Outset Border</div>
+  <div class="none">No Border</div>
+  <div class="hidden">Hidden Border</div>
+
+</body>
+</html>
+
+
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Background Image Example</title>
+    <style>
+        body {
+            background-image: url('path/to/your/image.jpg'); /* Change this to your image path */
+            background-size: cover; /* Ensures the image covers the entire screen */
+            background-position: center; /* Centers the image */
+            background-attachment: fixed; /* Fixes the background image in place */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            height: 100%; /* Ensures the body takes up the full height of the page */
+            margin: 0; /* Removes default margin */
+        }
+
+        .content {
+            height: 2000px; /* Adds extra content to make the page scrollable */
+            color: white; /* Makes text readable on dark backgrounds */
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to My Page!</h1>
+        <p>This page has a fixed background image.</p>
+    </div>
+</body>
+</html>
+
+<p>This is a paragraph with a border. The border can be customized in terms of thickness, color, and style. This is useful for highlighting text or creating visually distinct sections in a webpage.</p>
+<style>
+    p {
+      border: 2px solid black; /* Border thickness, style, and color */
+      padding: 10px; /* Adds space between the text and the border */
+      margin: 20px; /* Adds space around the border */
+    }
+  </style>
+                                                                                                               
+
+                                                                                
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decoration Example</title>
+    <style>
+        p.overline {
+            text-decoration: overline;
+        }
+    </style>
+</head>
+<body>
+    <P>hjdedjudyydfydfyfdyfyuiykduydiydiydydiydydsydhdhfhgfvkfgkglgoltgoto07t8t8tr57ry6et56w5q64q64142q64qwtrasgrfsxzhgfzxhgfxghdck,jgl,
+    
+    </P>
+    <p class="overline">This text is overlined.</p>
+</body>
+</html>
+
+
+
+                                           
+
+
+</body>
+</html>
